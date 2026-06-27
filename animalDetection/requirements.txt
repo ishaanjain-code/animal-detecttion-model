@@ -1,0 +1,17 @@
+# Animal Detection & Classification System
+# Python 3.10+ required
+
+# Core ML / Computer Vision
+ultralytics==8.3.2
+opencv-python-headless==4.10.0.84
+
+# GUI
+customtkinter==5.2.2
+
+# Image processing
+Pillow==10.4.0
+
+# Scientific (pulled in by ultralytics, pinned for reproducibility)
+numpy==1.26.4
+torch>=2.0.0
+torchvision>=0.15.0
